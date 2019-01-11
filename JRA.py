@@ -42,13 +42,13 @@ def get_Horse_name(sup):
 		#型確認
 		print(type(name))
 
-		write_horce_name(name)
+		write_horce_info(name)
 
 def write_soup_file(sop):
 	with open(path_prt, mode = 'w') as p:
 		p.write(str(sop))
 	
-def write_horce_name(name):
+def write_horce_info(name):
 	#最初に区切り線なんかを入れたいよね
 	#レース名とか
 	horce_file = open(path_w, mode = 'a')
