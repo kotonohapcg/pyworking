@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+#空白を削除(not-use)
 def remove_whitespace (str):
 	return ''.join(str.split())
 
@@ -10,6 +11,10 @@ def main():
 	res = requests.get(url)
 	content = res.content
 	soup = BeautifulSoup(content, 'html.parser')
+	#soupに人気取得のための別名を付けてみた
+	popular_soup = soup
+
+	#スクレイピングしたデータの処理
 	write_soup_file(soup)
 	#debug_soup_property(soup)
 	get_Horse_name(soup)
@@ -38,15 +43,15 @@ def write_horce_name(name):
 	#レース名とか
 	horce_file = open(path_w, mode = 'a')
 	#改行コードだけの変数を作って、無理矢理改行させる
-	returncode = "\n"
+	return_code = "\n"
 
 	horce_file.writelines( str(name) )
-	horce_file.write(returncode)
+	horce_file.write(return_code)
 
 	horce_file.close()
 	
-def debug_soup_property(propertyname):
-	print(propertyname.prettify())
+def debug_soup_property(property_name):
+	print(property_name.prettify())
 
 
 if __name__ == '__main__':
