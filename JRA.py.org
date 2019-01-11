@@ -1,0 +1,33 @@
+import requests
+from bs4 import BeautifulSoup
+
+def remove_whitespace (str):
+	return ''.join(str.split())
+
+def main():
+	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201906010308'
+#中山大障害出馬id=201806050710
+	res = requests.get(url)
+	content = res.content
+	soup = BeautifulSoup(content, 'html.parser')
+	get_Horse_name(soup)
+
+def get_Horse_name(sup):
+	sponsors = sup.find_all('tr', class_='HorseList')
+	#まだ書いてる途中
+	#馬番や印なんかを取得したい
+	#numbers = sup.find_all(
+	#marking = soup.find_all('
+	for sponsor in sponsors:
+		#url = sponsor.text
+		name = sponsor.a.text
+		print(name)
+	
+
+if __name__ == '__main__':
+	path_w = './JRAHorse.txt'
+	with open(path_w, mode = 'a') as f:
+		f.write(str(main()))
+	
+
+	#main()
