@@ -20,12 +20,12 @@ def main():
 	get_Horse_name(soup)
 
 def get_Horse_name(sup):
-	sponsors = sup.find_all('tr', class_='HorseList')
+	horce_name = sup.find_all('tr', class_='HorseList')
 	#まだ書いてる途中
 	#馬番や印なんかを取得したい
 	#numbers = sup.find_all(
 	#marking = soup.find_all('
-	for sponsor in sponsors:
+	for sponsor in horce_name:
 		#url = sponsor.text
 		name = sponsor.a.text
 		print(name)
