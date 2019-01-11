@@ -292,7 +292,7 @@ $(this).next().slideToggle("fast");
 </div><!-- /.RaceList_Item01 -->
 <div class="RaceList_Item02">
 <dl>
-<dt class="Race_Name">中山新春ジャンプＳ
+<dt class="Race_Name">中山新春ＪＳ
 
 
 
@@ -601,7 +601,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2012106003"> シゲルヒノクニ <img alt="" class="disp_none Favorite" id="myhorse_2012106003" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡7 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">原田　 60.0<!--01143--></dd>
+<dd class="Jockey">原田和 60.0<!--01143--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -622,7 +622,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2014100585"> エオヒップス <img alt="" class="disp_none Favorite" id="myhorse_2014100585" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">セ5 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">熊沢　 60.0<!--00652--></dd>
+<dd class="Jockey">熊沢 60.0<!--00652--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -664,7 +664,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2013104800"><span class="Icon_HorseMark Icon_MaruChi"></span>ヤマカツリーダー <img alt="" class="disp_none Favorite" id="myhorse_2013104800" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">セ6 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">北沢　 60.0<!--00691--></dd>
+<dd class="Jockey">北沢 60.0<!--00691--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -685,7 +685,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2014104023"> シゲルボスザル <img alt="" class="disp_none Favorite" id="myhorse_2014104023" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡5 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">植野　 60.0<!--00727--></dd>
+<dd class="Jockey">植野 60.0<!--00727--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -706,7 +706,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2012103680"> トラキアンコード <img alt="" class="disp_none Favorite" id="myhorse_2012103680" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">セ7 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">金子　 60.0<!--01052--></dd>
+<dd class="Jockey">金子 60.0<!--01052--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -727,7 +727,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2011101476"> ウインインスパイア <img alt="" class="disp_none Favorite" id="myhorse_2011101476" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡8 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">山本　 60.0<!--01008--></dd>
+<dd class="Jockey">山本 60.0<!--01008--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -748,7 +748,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2011101773"> シークレットパス <img alt="" class="disp_none Favorite" id="myhorse_2011101773" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡8 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">石神　 60.0<!--01059--></dd>
+<dd class="Jockey">石神 60.0<!--01059--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -790,7 +790,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2011101038"><span class="Icon_HorseMark Icon_MaruChi"></span>エアカーディナル <img alt="" class="disp_none Favorite" id="myhorse_2011101038" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡8 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">高田　 60.0<!--01046--></dd>
+<dd class="Jockey">高田 60.0<!--01046--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -811,7 +811,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2012101321"><span class="Icon_HorseMark Icon_MaruChi"></span>ユアーザワン <img alt="" class="disp_none Favorite" id="myhorse_2012101321" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡7 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">高野　 60.0<!--01089--></dd>
+<dd class="Jockey">高野 60.0<!--01089--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -832,7 +832,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2013104138"> メイショウダッサイ <img alt="" class="disp_none Favorite" id="myhorse_2013104138" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡6 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">森　一 60.0<!--01139--></dd>
+<dd class="Jockey">森一 60.0<!--01139--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -853,7 +853,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2013102041"> ゼンノトライブ <img alt="" class="disp_none Favorite" id="myhorse_2013102041" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡6 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">難波　 61.0<!--01066--></dd>
+<dd class="Jockey">難波 61.0<!--01066--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -874,7 +874,7 @@ var _race_cookie_domain_ = '.netkeiba.com';
 <dl class="fc">
 <dt class="Horse"><a href="https://db.sp.netkeiba.com/?pid=horse_profile&amp;id=2012103870"><span class="Icon_HorseMark Icon_MaruChi"></span>ゴールドバンカー <img alt="" class="disp_none Favorite" id="myhorse_2012103870" src="https://cdn.netkeiba.com/img.race.sp/common/img/icon/icon_horse.png" width="18"/></a></dt>
 <dd class="Age">牡7 <!-- <span class="Kyaku_Type">[先]</span> --></dd>
-<dd class="Jockey">蓑島　 60.0<!--01068--></dd>
+<dd class="Jockey">蓑島 60.0<!--01068--></dd>
 </dl>
 </td>
 <td class="Popular">
@@ -1257,7 +1257,7 @@ $.lazyscript(options);
 </script>
 </div>
 </div>
-<!-- block=comment (cp) -->
+<!-- block=comment (cg) -->
 <div class="Contents_Box mb00">
 <div class="Contents_Header">
 <div class="Title_Sec Border_Bottom">
@@ -1265,10 +1265,99 @@ $.lazyscript(options);
 </div><!-- /.Title_Sec -->
 </div><!-- /.Contents_Header -->
 <table class="Stable_Comment" id="">
+<tr>
+<td class="Waku1" rowspan="2">1</td>
+<!--  MY印項目をコメントアウト
+<td class="Select">
+<!-- BEGIN mode_check_2
+<input type="checkbox" class="HorseCheck_Select" id="check_" name="" value="1" />
+<label for="check_" class="HorseCheckBtn"></label>
+<!-- BEGIN mode_mark_2
+<select class="makeMeFancy_" name="" id="mark_">
+<!-- BEGIN yoso_mark_menu
+<option data-html-text="" value="1_"></option>
+<!-- END yoso_mark_menu
+</select>
+<!-- END mode_mark_2
+</td>
+-->
+<td class="Horse_Info fc">
+<div class="Horse_Name">シゲルヒノクニ</div>
+<div class="Trainer">藤井助手<span class="Icon_RaceInfo Icon_Mark_03"></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<dl class="Comment_Cell">
+<dt></dt>
+<dd>放牧明けで少し馬体に余裕がある。ケイコもピリッとせず、使ってからでは。</dd>
+</dl>
+</td>
+</tr><tr>
+<td class="Waku2" rowspan="2">2</td>
+<!--  MY印項目をコメントアウト
+<td class="Select">
+<!-- BEGIN mode_check_2
+<input type="checkbox" class="HorseCheck_Select" id="check_" name="" value="2" />
+<label for="check_" class="HorseCheckBtn"></label>
+<!-- BEGIN mode_mark_2
+<select class="makeMeFancy_" name="" id="mark_">
+<!-- BEGIN yoso_mark_menu
+<option data-html-text="" value="2_"></option>
+<!-- END yoso_mark_menu
+</select>
+<!-- END mode_mark_2
+</td>
+-->
+<td class="Horse_Info fc">
+<div class="Horse_Name">エオヒップス</div>
+<div class="Trainer">中村師<span class="Icon_RaceInfo Icon_Mark_02"></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<dl class="Comment_Cell">
+<dt></dt>
+<dd>気分屋な面があり、放牧でいったんリセット。中山は合うし、集中して走れれば。</dd>
+</dl>
+</td>
+</tr><tr>
+<td class="Waku3" rowspan="2">3</td>
+<!--  MY印項目をコメントアウト
+<td class="Select">
+<!-- BEGIN mode_check_2
+<input type="checkbox" class="HorseCheck_Select" id="check_" name="" value="3" />
+<label for="check_" class="HorseCheckBtn"></label>
+<!-- BEGIN mode_mark_2
+<select class="makeMeFancy_" name="" id="mark_">
+<!-- BEGIN yoso_mark_menu
+<option data-html-text="" value="3_"></option>
+<!-- END yoso_mark_menu
+</select>
+<!-- END mode_mark_2
+</td>
+-->
+<td class="Horse_Info fc">
+<div class="Horse_Name">ヤマタケジャイアン</div>
+<div class="Trainer">萱野師<span class="Icon_RaceInfo Icon_Mark_02"></span></div>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<dl class="Comment_Cell">
+<dt></dt>
+<dd>この中間も順調ですよ。今回からチークを着用する予定なので集中できれば。</dd>
+</dl>
+</td>
+</tr>
 </table>
 <p class="RaceInfo_Notice01 mt05 Txt_R">提供：<a href="http://www.daily.co.jp/horse/">デイリースポーツ</a></p>
 </div>
-<div class="Race_Infomation_Box">レース前日 16時 公開予定です。</div>
+<div class="LinkBtn_03" id="comment_list_btn">
+<a class="LinkBtn_More" href="https://race.sp.netkeiba.com/?pid=comment&amp;race_id=201906010308">
+<span class="Icon_More02">すべての厩舎コメントを見る</span>
+</a>
+</div><!-- /.LinkBtn_03 -->
 <div class="Premium_Regist_Box disp_none" id="Premium_Regist_Box_comment">
 <p class="Premium_Regist_Msg">続きはプレミアムサービス<br/>登録でご覧になれます。</p>
 <div class="mb20">
@@ -1302,7 +1391,7 @@ return false;
 
 });
 </script>
-<!-- block=oikiri (cp) -->
+<!-- block=oikiri (cg) -->
 <div class="Contents_Box mb00">
 <div class="Contents_Header">
 <div class="Title_Sec Border_Bottom">
@@ -1497,7 +1586,7 @@ googletag.display('sp_nk_data_002');
 <div class="Contents_Box">
 <div class="Contents_Header Border">
 <div class="Title_Sec Border_Bottom">
-<h2>中山新春ジャンプＳメニュー</h2>
+<h2>中山新春ＪＳメニュー</h2>
 </div><!-- / .Title -->
 </div>
 <div class="Race_CategoryMenu">
@@ -1790,7 +1879,7 @@ background-image: url('https://cdn.netkeiba.com/img.sp//common/img/common/img_nk
 background-size: 84px 84px;
 }
 </style>
-<!-- block=popup_racelist (cp) -->
+<!-- block=popup_racelist (cg) -->
 <div class="Shutuba_Modal FreeMem">
 <div class="Btn"><span class="Icon"></span>レース一覧</div>
 </div><!-- /.Shutuba_Modal -->

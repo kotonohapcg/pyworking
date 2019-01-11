@@ -16,8 +16,18 @@ def main():
 
 	#スクレイピングしたデータの処理
 	write_soup_file(soup)
-	#debug_soup_property(soup)
+	
+	#競走名を取得する
+	get_race_title(soup)
+
 	get_Horse_name(soup)
+
+#レース名を取得したい
+def get_race_title(sup):
+	race_title = sup.find('dt', class_='Race_Name')
+	print(str(race_title.text))
+
+
 
 def get_Horse_name(sup):
 	horce_name = sup.find_all('tr', class_='HorseList')
@@ -49,7 +59,8 @@ def write_horce_name(name):
 	horce_file.write(return_code)
 
 	horce_file.close()
-	
+
+#整形済みのsoup内のデータを表示させる
 def debug_soup_property(property_name):
 	print(property_name.prettify())
 
