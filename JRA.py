@@ -1,3 +1,5 @@
+#最初にやったPyConのスポンサーのスクレイピングを改造したコードです
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -7,7 +9,6 @@ def remove_whitespace (str):
 
 def main():
 	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201905010211'
-#中山大障害出馬id=201806050710
 	res = requests.get(url)
 	content = res.content
 	soup = BeautifulSoup(content, 'html.parser')
@@ -34,6 +35,9 @@ def get_race_title(sup):
 
 	write_horce_info( race_title.text.strip() )
 	write_horce_info(return_code)
+
+def get_Hoarce_popular(sup):
+	popularn = sup.find_all('td', class_='Poppular')
 
 
 
