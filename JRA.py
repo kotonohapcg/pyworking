@@ -26,9 +26,14 @@ def main():
 #レース名を取得したい
 def get_race_title(sup):
 	race_title = sup.find('dt', class_='Race_Name')
-	print(race_title.title)
+	#改行コードだけの変数を作って、無理矢理改行させる
+	return_code = "\n"
+	
+	#取得したレース名のテキストから空白文字を削除
+	print( race_title.text.strip() )
 
-	write_horce_info(race_title)
+	write_horce_info( race_title.text.strip() )
+	write_horce_info(return_code)
 
 
 
