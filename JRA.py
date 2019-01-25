@@ -6,7 +6,7 @@ def remove_whitespace (str):
 	return ''.join(str.split())
 
 def main():
-	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201906010308'
+	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201905010211'
 #中山大障害出馬id=201806050710
 	res = requests.get(url)
 	content = res.content
@@ -15,7 +15,8 @@ def main():
 	popular_soup = soup
 
 	#スクレイピングしたデータの処理
-	write_soup_file(soup)
+	#必要に応じてコメントアウト
+	#write_soup_file(soup)
 	
 	#競走名を取得する
 	get_race_title(soup)
@@ -25,7 +26,9 @@ def main():
 #レース名を取得したい
 def get_race_title(sup):
 	race_title = sup.find('dt', class_='Race_Name')
-	print(str(race_title.text))
+	print(race_title.title)
+
+	write_horce_info(race_title)
 
 
 
@@ -40,7 +43,7 @@ def get_Horse_name(sup):
 		name = sponsor.a.text
 		print(name)
 		#型確認
-		print(type(name))
+		#print(type(name))
 
 		write_horce_info(name)
 
