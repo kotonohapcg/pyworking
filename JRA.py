@@ -1,3 +1,5 @@
+#最初にやったPyConのスポンサーのスクレイピングを改造したコードです
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -6,8 +8,7 @@ def remove_whitespace (str):
 	return ''.join(str.split())
 
 def main():
-	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201906010308'
-#中山大障害出馬id=201806050710
+	url = 'https://race.sp.netkeiba.com/?pid=shutuba&race_id=201905010211'
 	res = requests.get(url)
 	content = res.content
 	soup = BeautifulSoup(content, 'html.parser')
@@ -15,7 +16,8 @@ def main():
 	popular_soup = soup
 
 	#スクレイピングしたデータの処理
-	write_soup_file(soup)
+	#必要に応じてコメントアウト
+	#write_soup_file(soup)
 	
 	#競走名を取得する
 	get_race_title(soup)
@@ -25,7 +27,17 @@ def main():
 #レース名を取得したい
 def get_race_title(sup):
 	race_title = sup.find('dt', class_='Race_Name')
-	print(str(race_title.text))
+	#改行コードだけの変数を作って、無理矢理改行させる
+	return_code = "\n"
+	
+	#取得したレース名のテキストから空白文字を削除
+	print( race_title.text.strip() )
+
+	write_horce_info( race_title.text.strip() )
+	write_horce_info(return_code)
+
+def get_Hoarce_popular(sup):
+	popularn = sup.find_all('td', class_='Poppular')
 
 
 
@@ -40,7 +52,7 @@ def get_Horse_name(sup):
 		name = sponsor.a.text
 		print(name)
 		#型確認
-		print(type(name))
+		#print(type(name))
 
 		write_horce_info(name)
 
